@@ -1,0 +1,26 @@
+{
+  "studioVersion": {
+    "major": 5,
+    "minor": 24,
+    "patch": 0,
+    "build": 26101500,
+    "type": "Public"
+  },
+  "projectId": "8f4e2a10-9c3b-4d77-b122-55a91e04c812",
+  "projectName": "SolderCoachSPECS",
+  "templateName": "SPECS Base Template",
+  "targetPlatform": "SnapSPECS",
+  "spectaclesInteractionKitVersion": "2.4.0",
+  "uiKitVersion": "1.6.0",
+  "additiveDisplaySimulation": true,
+  "fovVerticalDeg": 37.0,
+  "fovHorizontalDeg": 32.0,
+  "focusPlaneMeters": 1.0,
+  "mainScene": "Assets/Scenes/SolderCoachMain.scene",
+  "scripts": [
+    "Assets/Scripts/SolderCoachController.ts"
+  ],
+  "leafTestSuites": [
+    "Tests/SolderCoachLEAFTests.ts"
+  ]
+}

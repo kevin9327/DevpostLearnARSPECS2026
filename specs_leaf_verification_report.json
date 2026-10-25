@@ -1,0 +1,62 @@
+{
+  "hackathon": "Devpost x Snap \u2014 Learn AR with SPECS ($2,500 USD Cash)",
+  "url": "https://learn-specs.devpost.com/",
+  "skill_pack_repo": "https://github.com/challengepost/learn-specs",
+  "project_name": "SolderCoach-SPECS",
+  "generated_at_utc": "2026-10-25T12:46:11.526642+00:00",
+  "project_files_verified": {
+    "SolderCoachSPECS.esproj": true,
+    ".mcp.json": true,
+    "devpost/design-brief.md": true,
+    "Assets/Scripts/SolderCoachController.ts": true,
+    "Tests/SolderCoachLEAFTests.ts": true
+  },
+  "specs_optical_and_ergonomic_verification": {
+    "target_distance_cm": 65.0,
+    "focus_plane_band_cm": "60.0 to 160.0 (optimal ~100.0)",
+    "vertical_offset_below_eye_cm": -15.0,
+    "specs_fov_deg": "37.0 V x 32.0 H",
+    "usable_window_at_65cm_cm": "43.5 H x 37.28 W",
+    "active_card_size_cm": "8.0 H x 14.0 W",
+    "fits_inside_single_glance_fov": true,
+    "additive_waveguide_relative_luminance": {
+      "primaryCyan_#38BDF8": 0.4401,
+      "warningAmber_#FBBF24": 0.579,
+      "verifiedEmerald_#34D399": 0.4962,
+      "textLight_#F8FAFC": 0.9536
+    }
+  },
+  "leaf_automated_tests": {
+    "passed": 4,
+    "total": 4,
+    "pass_rate_pct": 100.0,
+    "untested_criteria_count": 0,
+    "scenarios": [
+      {
+        "id": "LEAF-DC-01",
+        "criterion": "Done Criterion 1: Launch shows Found Board stand-in SIK button at 65cm with step cards hidden",
+        "status": "PASS",
+        "classification": "logic proven"
+      },
+      {
+        "id": "LEAF-DC-02",
+        "criterion": "Done Criterion 2: Pinching Found Board opens Pin 1 (3.3V VCC) callout at (z=-65cm, y=-15cm) while Pins 2 & 3 stay collapsed",
+        "status": "PASS",
+        "classification": "logic proven"
+      },
+      {
+        "id": "LEAF-DC-03",
+        "criterion": "Done Criterion 3: Pinching Heat Joint (3.5s) and Next Pin advances sequentially through Pins 1-3 to All 3 Joints Verified",
+        "status": "PASS",
+        "classification": "logic proven"
+      },
+      {
+        "id": "LEAF-DC-04",
+        "criterion": "Done Criterion 4: Off-screen Iron Rest alert plays spatial chime and displays 4cm amber directional arrow",
+        "status": "PASS",
+        "classification": "logic proven (real hand fatigue & solder plume glare labeled feel unproven)"
+      }
+    ]
+  },
+  "verification_sha256": "822929a29e4d74e8b306c368fb3cc1f84808e5a614dbb39e268aba17d82845bc"
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "lens-studio": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@snap/lens-studio-mcp@latest",
+        "--project",
+        "./SolderCoachSPECS.esproj"
+      ],
+      "env": {
+        "LENS_STUDIO_CLAD_ENABLED": "true",
+        "LENS_STUDIO_PREVIEW_MODE": "SPECS_INTERACTIVE"
+      }
+    }
+  }
+}
